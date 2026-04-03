@@ -12,6 +12,7 @@
 
 .reveal section {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px;
@@ -19,20 +20,20 @@
 }
 
 .reveal h1 {
-  margin-bottom: 20px;
-  font-size: 34px;
+  margin-bottom: 30px;
+  font-size: 44px;
   text-transform: none;
 }
 
 .reveal h2 {
   margin-bottom: 40px;
-  font-size: 30px;
+  font-size: 42px;
   text-transform: none;
   color:  hsl(280, 100%, 65%);
 }
 
 .reveal h3 {
-  font-size: 24px;
+  font-size: 34px;
   text-transform: none;
 
    color: hsl(0, 0%, 50%);
@@ -40,18 +41,26 @@
 }
 
 .reveal p {
-  font-size: 20px;
+  margin: 0 auto 20px;
+  max-width: 1200px;
+  font-size: 30px;
   color: hsl(0, 0%, 50%);
 }
 
 .reveal ul {
+  list-style-position: inside;
   text-align: center;
-  list-style-type: none;
+  list-style-type: circle
+}
+
+.reveal  .difficulties-list {
+  margin-bottom: 40px;
+  list-style-type: square
 }
 
 .reveal li {
   margin-bottom: 8px;
-  font-size: 20px;
+  font-size: 30px;
   color: hsl(0, 0%, 50%);
   
   
@@ -69,17 +78,56 @@
 }
 
 .reveal a:hover {
-  font-size: 20px;
   color: hsl(180, 100%, 50%);
 }
 
 
+
+
+.reveal img {
+  display: block;
+  margin: 0 auto;
+    height: auto;
+    border-radius: 18px;
+  
+}
+
 .reveal .slide-01 h1 {
-  margin-bottom: 10px;
-  font-size: 40px;
+  margin-bottom: 15px;
+  font-size: 52px;
+}
+
+.reveal .slide-01 img {
+  width: 350px;
 }
 
 
+ .reveal .slide-04 li {
+   font-size: 28px;
+ }
 
+
+
+ .reveal .slide-04 img {
+   max-width: 1000px;
+
+  
+}
+
+ .reveal .slide-06 img, 
+ .reveal .slide-07 img,
+ .reveal .slide-08 img,
+ .reveal .slide-09 img,
+ .reveal .slide-10 img,
+ .reveal .slide-11 img,
+ .reveal .slide-12 img {
+   max-width: 1500px;
+
+  
+}
+
+.reveal .slide-18 h1 {
+  font-size: 58px;
+}
 
 

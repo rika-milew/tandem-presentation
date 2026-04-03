@@ -1,0 +1,9 @@
+.reveal {
+  background: hsl(240, 20%, 4%);
+  color: #e6e6e6;
+  font-family: 'Inter', sans-serif;
+}
+
+.reveal section {
+  text-align: center
+}

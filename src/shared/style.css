@@ -35,9 +35,7 @@
 .reveal h3 {
   font-size: 34px;
   text-transform: none;
-
-   color: hsl(0, 0%, 50%);
-
+  color: hsl(0, 0%, 50%);
 }
 
 .reveal p {
@@ -62,14 +60,10 @@
   margin-bottom: 8px;
   font-size: 30px;
   color: hsl(0, 0%, 50%);
-  
-  
 }
 
 .reveal li strong {
-  color:  hsl(280, 100%, 65%);
-  
-  
+  color: hsl(280, 100%, 65%);
 }
 
 .reveal a {
@@ -81,15 +75,11 @@
   color: hsl(180, 100%, 50%);
 }
 
-
-
-
 .reveal img {
   display: block;
   margin: 0 auto;
-    height: auto;
-    border-radius: 18px;
-  
+  height: auto;
+  border-radius: 18px;
 }
 
 .reveal .slide-01 h1 {
@@ -101,33 +91,24 @@
   width: 350px;
 }
 
-
- .reveal .slide-04 li {
-   font-size: 28px;
- }
-
-
-
- .reveal .slide-04 img {
-   max-width: 1000px;
-
-  
+.reveal .slide-04 li {
+  font-size: 28px;
 }
 
- .reveal .slide-06 img, 
- .reveal .slide-07 img,
- .reveal .slide-08 img,
- .reveal .slide-09 img,
- .reveal .slide-10 img,
- .reveal .slide-11 img,
- .reveal .slide-12 img {
-   max-width: 1500px;
+.reveal .slide-04 img {
+  max-width: 1000px;  
+}
 
-  
+.reveal .slide-06 img, 
+.reveal .slide-07 img,
+.reveal .slide-08 img,
+.reveal .slide-09 img,
+.reveal .slide-10 img,
+.reveal .slide-11 img,
+.reveal .slide-12 img {
+  max-width: 1500px;
 }
 
 .reveal .slide-18 h1 {
   font-size: 58px;
 }
-
-

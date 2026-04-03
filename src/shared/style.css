@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .reveal {
   background: hsl(240, 20%, 4%);
   color: #e6e6e6;
@@ -5,5 +11,75 @@
 }
 
 .reveal section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
   text-align: center
 }
+
+.reveal h1 {
+  margin-bottom: 20px;
+  font-size: 34px;
+  text-transform: none;
+}
+
+.reveal h2 {
+  margin-bottom: 40px;
+  font-size: 30px;
+  text-transform: none;
+  color:  hsl(280, 100%, 65%);
+}
+
+.reveal h3 {
+  font-size: 24px;
+  text-transform: none;
+
+   color: hsl(0, 0%, 50%);
+
+}
+
+.reveal p {
+  font-size: 20px;
+  color: hsl(0, 0%, 50%);
+}
+
+.reveal ul {
+  text-align: center;
+  list-style-type: none;
+}
+
+.reveal li {
+  margin-bottom: 8px;
+  font-size: 20px;
+  color: hsl(0, 0%, 50%);
+  
+  
+}
+
+.reveal li strong {
+  color:  hsl(280, 100%, 65%);
+  
+  
+}
+
+.reveal a {
+  color: #e6e6e6;
+  transition: all 0.3s ease;
+}
+
+.reveal a:hover {
+  font-size: 20px;
+  color: hsl(180, 100%, 50%);
+}
+
+
+.reveal .slide-01 h1 {
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+
+
+
+

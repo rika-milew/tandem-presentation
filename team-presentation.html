@@ -15,15 +15,15 @@
           <h1>Final Project: Tandem</h1>
           <h2>Команда: GrowLab</h2>
           <h3>Учебный командный проект RS School</h3>
-          <p>Веб-приложение для подготовки к техническим собеседованиям с интерактивными виджетами и поддержкой AI ментора.</p>
-          <img src="src/assets/logo2.png" alt="">
+          <p class="fragment">Веб-приложение для подготовки к техническим собеседованиям с интерактивными виджетами и поддержкой AI ментора.</p>
+          <img src="src/assets/logo2.png" alt="" class="fragment">
         </section>
         <section class="slide-02">
           <h1>📌 Стек технологий</h1>
           <ul>
-            <li class="fragment"><strong>Frontend:</strong> React, TypeScript, Zustand, CSS Modules, AI API</li>
-            <li class="fragment"><strong>Backend:</strong> REST API, база данных Mongo Atlas, Node.js/Express</li>
-            <li class="fragment"><strong>Dev Tools:</strong> Vite, ESLint, Biome, Git/GitHub</li>
+            <li class="fragment"><strong>Frontend:</strong> React, TypeScript, Zustand, React Router, CSS Modules, AI API, UUID, classnames</li>
+            <li class="fragment"><strong>Backend:</strong> Node.js/Express, REST API, база данных Mongo Atlas, Zod</li>
+            <li class="fragment"><strong>Dev Tools:</strong> Vite, ESLint, Biome, Husky + lint-staged, Git/GitHub, Vitest</li>
           </ul>
         </section>
         <section class="slide-03">
@@ -35,6 +35,7 @@
             <li class="fragment">Backend с четким <strong>разделением слоев</strong> (БД, сервисы, HTTP-запросы, обработка ошибок)</li>
             <li class="fragment">Интеграция <strong>AI</strong>-ментора</li>
             <li class="fragment">Поддерживаемый и <strong>масштабируемый</strong> код</li>
+            <li class="fragment">Полностью <strong>адаптивный</strong> интерфейс (desktop → tablet → mobile до 320px)</li>
           </ul>
         </section>
         <section class="slide-04">
@@ -86,13 +87,24 @@
           <img src="src/assets/ai-chat.png" alt="">
         </section>
         <section class="slide-13">
+          <h2>AI Chat Demo</h2>
+          <iframe 
+            width="1300" 
+            height="730" src="https://www.youtube.com/embed/206QcfZ6SRY?si=hKXdlznivBtmzO2v"
+            title="YouTube video player" 
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+          </iframe>
+        </section>
+        <section class="slide-14">
           <h1>🔗 Проект доступен онлайн:</h1>
           <ul>
             <li><strong>Frontend:</strong> <a href="https://tandem-growlab.vercel.app">https://tandem-growlab.vercel.app</a></li>
             <li><strong>Backend:</strong> <a href="https://growlab-server.vercel.app/health">https://growlab-server.vercel.app/health</a></li>
           </ul>
        </section>
-       <section class="slide-14">
+       <section class="slide-15">
           <h1>📖 Team Story</h1>
           <ul>
             <li><strong>Ментор:</strong> Anna Zhuravleva — <a href="https://github.com/ansivgit">ansivgit</a></li>
@@ -101,21 +113,21 @@
             <li>Yauheniya Mastavaya — <a href="https://github.com/zena86">zena86</a> <i>(сошёл с дистанции)</i></li>
           </ul>
         </section>
-        <section class="slide-15">
+        <section class="slide-16">
           <h2>📝 Принципы командной работы</h2>
           <ul>
-            <li>Работа спринтами (1 неделя)</li>
-            <li>Работа через Pull Requests</li>
-            <li>Обязательный Code Review от ментора и команды</li>
-            <li>Merge только после аппрува</li>
-            <li>Регулярные созвоны (1 раз в неделю) и дополнительные созвоны с ментором по запросу</li>
-            <li>Архитектурные решения и дизайн обсуждались совместно</li>
-            <li>Разделение задач и зон ответственности</li>
-            <li>Единые правила кодстайла</li>
-            <li>Фокус на читаемом и поддерживаемом коде</li>
+            <li class="fragment">Работа <strong>спринтами</strong> (1 неделя)</li>
+            <li class="fragment">Работа через <strong>Pull Requests</strong></li>
+            <li class="fragment">Обязательный <strong>Code Review</strong> от ментора и команды</li>
+            <li class="fragment">Merge только после <strong>аппрува</strong></li>
+            <li class="fragment">Регулярные <strong>созвоны</strong> (1 раз в неделю) и дополнительные созвоны с ментором по запросу</li>
+            <li class="fragment">Архитектурные решения и дизайн <strong>обсуждались</strong> совместно</li>
+            <li class="fragment">Разделение <strong>задач</strong> и зон ответственности</li>
+            <li class="fragment">Единые <strong>правила</strong> кодстайла</li>
+            <li class="fragment">Фокус на <strong>читаемом и поддерживаемом</strong> коде</li>
          </ul>
         </section>
-        <section class="slide-16">
+        <section class="slide-17">
           <h2>🔍 Сложности и решения</h2>
             <ul class="difficulties-list">
               <li>Первый опыт работы с React</li>
@@ -123,19 +135,19 @@
               <li>Изменения в составе команды</li>
               <li>Длительные code review</li>
             </ul>
-          <h2>✔️ Что это дало</h2>
-            <ul>
+          <h2 class="fragment">✔️ Что это дало</h2>
+            <ul class="fragment">
               <li>Быстрое погружение в React и архитектуру</li>
               <li>Навык работы с чужим кодом</li>
               <li>Адаптация к изменениям в команде</li>
               <li>Фокус на качестве и поддерживаемости кода</li>
             </ul>
         </section>
-        <section class="slide-17">
+        <section class="slide-18">
           <h2>Доска проекта</h2>
           <img src="src/assets/board.png" alt="">
         </section>
-        <section class="slide-18">
+        <section class="slide-19">
           <h1>Q&A</h1>
           <img src="src/assets/cat.avif" alt="">
         </section>

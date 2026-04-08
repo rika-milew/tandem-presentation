@@ -14,10 +14,10 @@
 .reveal .slide-10,
 .reveal .slide-11,
 .reveal .slide-12,
-.reveal .slide-20 {
+.reveal .slide-20,
+.reveal .step-01  {
   background: hsl(240, 16%, 6%);
 }
-
 
 .reveal section {
   display: flex;
@@ -60,8 +60,12 @@
   list-style-type: circle
 }
 
-.reveal  .difficulties-list {
+.reveal .difficulties-list {
   margin-bottom: 40px;
+  list-style-type: square
+}
+
+.reveal .feature-list {
   list-style-type: square
 }
 
@@ -117,7 +121,13 @@
 .reveal .slide-12 img,
 .reveal .slide-17 img,
 .reveal .slide-18 img,
-.reveal .slide-20 img  {
+.reveal .slide-20 img, 
+.reveal .step-08 img,
+.reveal .step-10 img,
+.reveal .step-11 img,
+.reveal .step-13 img,
+.reveal .step-16 img,
+.reveal .step-21 img {
   max-width: 1500px;
 }
 
@@ -133,3 +143,43 @@
   margin-bottom: 20px;
 }
 
+.reveal .github-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 auto 20px;
+  width: max-content;
+}
+
+.reveal .github-icon {
+  width: 35px;
+  height: auto;
+}
+
+.reveal .github-link a {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 32px;
+}
+
+.reveal .name {
+  margin-bottom: 20px;
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  gap: 0.5rem; 
+  max-width: 1250px;
+  margin: 1rem auto 0;
+}
+
+.technology {
+  padding:0.3rem 0.6rem; 
+  border-radius:0.3rem
+}

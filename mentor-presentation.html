@@ -5,20 +5,231 @@
     <title>Tandem GrowLab</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/black.css">
-    <link rel="stylesheet" href="/src/shared/style.css">
-    <link rel="icon" href="/favicon-tandem.ico" type="image/x-icon">
+    <link rel="stylesheet" href="src/shared/style.css">
+    <link rel="icon" href="src/assets/favicon-tandem.ico" type="image/x-icon">
   </head>
   <body>
     <div class="reveal">
       <div class="slides">
-        <section class="slide-01">
+        <section class="step-01">
           <h1>Final Project: Tandem</h1>
+          <h2 class="name">Eryka Mileuskaya</h2>
+          <div class="github-link">
+           <img src="src/assets/github-icon2.svg" alt="GitHub" class="github-icon">
+           <a href="https://github.com/rika-milew" target="_blank" class="github-link-text">rika-milew</a>
+          </div>
           <h2>Команда: GrowLab</h2>
           <h3>Учебный командный проект RS School</h3>
-          <p>Веб-приложение для подготовки к техническим собеседованиям с интерактивными виджетами и поддержкой AI ментора.</p>
-          <img src="src/assets/logo2.png" alt="">
+          <p class="fragment">Веб-приложение для подготовки к техническим собеседованиям с интерактивными виджетами и поддержкой AI ментора.</p>
+          <img src="src/assets/logo2.png" alt="" class="fragment">
+        </section>
+        <section class="step-02">
+          <h1>🎯 Проект включает:</h1>
+          <ul>
+            <li>Практические <strong>задания по темам</strong> JavaScript, TypeScript, React и Node.js</li>
+            <li>Разные форматы <strong>виджетов</strong></li>
+            <li>Поддержка <strong>AI-ментора</strong> для интервью</li>
+            <li>Система <strong>прогресса</strong> пользователя</li>
+          </ul>
+          <img src="src/assets/login-form.png" alt="">
+        </section>
+        <section class="step-03">
+          <h1>📌 Стек технологий</h1>
+          <div class="fragment technologies">
+            <span style="background:#61dafb; color:#000;" class="technology">React</span>
+            <span style="background:#3178c6; color:#fff;" class="technology">TypeScript</span>
+            <span style="background:#6e48aa; color:#fff" class="technology">Zustand</span>
+            <span style="background:#f34b7d; color:#fff" class="technology">React Router</span>
+            <span style="background:#87cefa; color:#000" class="technology">REST API</span>
+            <span style="background:#dda0dd; color:#fff;" class="technology">Zod</span>
+            <span style="background:#e34c26; color:#fff" class="technology">CSS Modules</span>
+            <span style="background:#ffd43b; color:#000" class="technology">Vite</span>
+            <span style="background:#4b32c3; color:#fff" class="technology">ESLint</span>
+            <span style="background:#f0f0f0; color:#000" class="technology">Git/GitHub</span>
+            <span style="background:#00bfff; color:#000" class="technology">Vitest</span>
+            <span style="background:#ffa500; color:#000" class="technology">Husky + lint-staged</span>
+            <span style="background:#98fb98; color:#000" class="technology">Biome</span>
+            <span style="background:#ff69b4; color:#fff" class="technology">classnames</span>
+          </div>
+        </section>
+        <section class="step-04">
+          <h1>📝 Моя работа</h1>
+          <ul>
+            <li class="fragment">Разработка универсального <strong>Widget Engine</strong> с архитектурным паттерном Strategy</li>
+            <li class="fragment">Интерактивный фронтенд с <strong>виджетами</strong>, Dashboard и прогрессом</li>
+            <li class="fragment">Логика начисления очков, расчёт <strong>прогресса</strong> и открытие достижений</li>
+            <li class="fragment">Интеграция с бэкендом через <strong>API-слой</strong>, создание эндпоинта /data</li>
+            <li class="fragment"><strong>Деплой</strong> фронта через Vercel</li>
+            <li class="fragment">Своими <strong>компонентами</strong> реализован лоадер, Toast уведомления, страница 500</li>
+            <li class="fragment">Разработаны <strong>переиспользуемые UI-компоненты</strong>: кнопки, заголовки, карточки виджетов, иконки и т.д.</li>
+            <li class="fragment">Полностью <strong>адаптивный</strong> интерфейс (desktop → tablet → mobile до 320px)</li>
+          </ul>
+        </section>
+        <section class="step-05">
+          <h2>📋 Архитектура и подходы:</h2>
+          <ul>
+            <li class="fragment">Чёткое <strong>разделение ответственности</strong>: UI-компоненты, бизнес-логика и глобальное состояние</li>
+            <li class="fragment">Продуманная <strong>архитектура</strong> движка виджетов и гибкая системой стратегий для различных типов виджетов</li>
+            <li class="fragment">Возможность добавлять <strong>новые виджеты</strong> без изменения ядра движка</li>
+            <li class="fragment"><strong>Переиспользуемые компоненты:</strong> единая архитектура и стилистика, позволяющая быстро строить новые интерфейсы и расширять функционал</li>
+          </ul>
+        </section>
+         <section class="step-06">
+          <h2>🧭 Архитектура и подходы:</h2>
+          <ul>
+            <li class="fragment"><strong>Типизация и безопасность:</strong> TypeScript и Zod для строгого контроля данных и интерфейсов</li>
+            <li class="fragment"><strong>Тестирование и качество:</strong> Vitest для юнит-тестов, ESLint/Biome/Husky для поддержания кодстайла</li>
+            <li class="fragment">Поддерживаемый и <strong>масштабируемый</strong> код</li>
+            <li class="fragment">Фокус на строгом <strong>Code Review</strong></li>
+          </ul>
+        </section>
+        <section class="step-07">  
+          <h1>⭐️ Feature Components</h1>
+          <ul>
+            <li class="fragment"><strong>Widget Engine</strong> — управление виджетами</li>
+            <li class="fragment"><strong>Widget Strategies</strong> — стратегии работы виджетов</li>
+            <li class="fragment"><strong>Quiz Widget</strong> — интерактивный квиз-виджет</li>
+            <li class="fragment"><strong>Memory Match Game</strong> — интерактивная игра</li>
+            <li class="fragment"><strong>Dashboard</strong> — прогресс и данные пользователя</li>
+          </ul>
+        </section>   
+        <section class="step-08">
+          <h2> Widget Engine</h2>
+          <img src="src/assets/engine.png" alt="">
+        </section>
+         <section class="step-09">
+          <h2></h2>
+          <h2>🚀 Универсальный движок для запуска и обработки разных типов виджетов:</h2>
+          <ul class="feature-list">
+            <li>использован <strong>паттерн Strategy</strong> – логика каждого виджета изолирована</li>
+            <li>поддерживается <strong>расширение</strong> (добавление новых типов виджетов без изменения основной логики)</li>
+            <li>сделан <strong>последовательный запуск</strong> виджетов (runWidgets) с ожиданием ответа</li>
+            <li>используется <strong>Promise-based</strong> подход для асинхронного получения ответов</li>
+            <li>добавлена <strong>валидация</strong> ответа через стратегии</li>
+            <li>реализован безопасный парсинг данных с использованием схем <strong>валидации</strong></li>
+          </ul>
+        </section>
+        <section class="step-10">
+          <h2>Widget Strategies</h2>
+          <img src="src/assets/strategy.png" alt="">
+        </section>
+        <section class="step-11">
+          <h2>Quiz Widget</h2>
+          <p>Интерактивный квиз-виджет с множественными вариантами ответа с валидацией ответов</p>
+          <img src="src/assets/tandem-quiz.png" alt="">
+        </section>
+        <section class="step-12">
+          <p>🏆 Разработан интерактивный Quiz Widget компонент:</p>
+          <ul>
+            <li>выбор одного/нескольких ответов</li>
+            <li>отправка ответа и переход к следующему шагу</li>
+            <li>визуальное отображение результата ответа (correct/wrong/missed)</li>
+            <li>отображение объяснения после ответа</li>
+            <li>выделен переиспользуемый компонент AnswerOption для вариантов ответов</li>
+          </ul>
+          <p>⚙️ Реализована стратегия quiz:</p>
+          <ul>
+            <li>динамический рендер компонента через createRoot</li>
+            <li>управление жизненным циклом (mount/unmount)</li>
+            <li>валидация ответов и получение результата</li>
+            <li>начисление баллов и обновление прогресса пользователя</li>
+            <li>интеграция со сторами (score, solved widgets, toast)</li>
+            <li>добавлена защита от повторного начисления баллов</li>
+          </ul>
+        </section>
+        <section class="step-13">
+          <h2>Macth Game Widget</h2>
+          <p>Интерактивный Memory Match Game виджет с игровой механикой поиска пар.</p>
+          <img src="src/assets/match-game.png" alt="">
+        </section>
+        <section class="step-14">
+          <h2></h2>
+          <p>🧩 Разработан игровой Match Game Widget UI:</p>
+          <ul>
+            <li>механика поиска пар (flip cards)</li>
+            <li>управление состояниями карточек (opened/solved)</li>
+            <li>блокировка некорректных действий пользователя</li>
+            <li>втоматическая проверка совпадений</li>
+            <li>перемешивание карточек для случайной генерации игрового поля</li>
+            <li>Реализован компонент FlipCard:</li>
+          </ul>
+          <p>⚡️ Реализована стратегия match-game:</p>
+          <ul>
+            <li>динамический рендер React-компонента</li>
+            <li>отслеживание состояния карточек через Map</li>
+            <li>подсчёт решённых пар и формирование результата</li>
+            <li>валидация корректного завершения игры</li>
+            <li>начисление баллов и обновление прогресса пользователя</li>
+            <li>интеграция со сторами (score, solved widgets, toast)</li>
+          </ul>
+        </section>
+        <section class="step-15">
+          <h2>Чёткое разделение ответственности для всех виджетов:</h2>
+            <ul>
+              <li>UI – слой представления: обработка пользовательских действий и отображение состояния</li>
+              <li>Strategy – содержит бизнес-логику: проверка ответов формирование результата начисление очков обновление стора</li>
+            </ul>
+        </section>
+        <section class="step-16">
+          <h2>Dashboard</h2>
+          <img src="src/assets/dashboard.png" alt="">
+        </section>
+        <section class="step-17">
+          <p>Экран пользователя с отображением прогресса, статистики и достижений.</p>
+          <ul>
+            <li>отображение статистики (решённые виджеты, общий прогресс)</li>
+            <li>визуализация прогресса по темам с использованием компонента ProgressBar</li>
+            <li>список достижений с сортировкой и переключением отображения (показать все/свернуть)</li>
+            <li>Реализован профиль пользователя:</li>
+            <li>Интеграция dashboard со сторами (Zustand):</li>
+            <li>Реализована система прогресса:</li>
+            <li>Добавлена логика достижений :</li>
+            <li>Обеспечена синхронизация с backend загрузка данных пользователя и сохранение между перезагрузками
+обновление профиля и прогресса</li>
+          </ul>
+        </section>
+        <section class="step-18">
+          <h1>🔗 Проект доступен онлайн:</h1>
+          <ul>
+            <li><strong>Frontend:</strong> <a href="https://tandem-growlab.vercel.app">https://tandem-growlab.vercel.app</a></li>
+            <li><strong>Backend:</strong> <a href="https://growlab-server.vercel.app/health">https://growlab-server.vercel.app/health</a></li>
+          </ul>
+       </section>
+       <section class="step-19">
+        <h2>🔍 Сложности</h2>
+            <ul class="difficulties-list">
+              <li><strong>Изучение React</strong> с нуля и применение концепций реактивного UI</li>
+              <li><strong>Разделение</strong> UI и бизнес-логики</li>
+              <li>Управление глобальным <strong>состоянием</strong></li>
+              <li>Интеграция с <strong>сервером</strong>, первый опыт работы с бэком</li>
+              <li><strong>Типизация</strong> сложных стратегий в TypeScript</li>
+              <li>Работа с <strong>чужим кодом</strong> после ухода команды</li>
+              <li>Поддержка <strong>масштабируемости</strong> и строгие Code Review</li>
+            </ul>
+       </section>
+        <section class="step-20">
+          <h2>✔️ Опыт и результаты</h2>
+            <ul>
+              <li class="fragment">Быстрое <strong>погружение в React</strong> и архитектуру</li>
+              <li class="fragment">Навык работы с <strong>чужим кодом</strong></li>
+              <li class="fragment">Завершение проекта <strong>самостоятельно</strong> после распада команды</li>
+              <li class="fragment">Решение <strong>сложных для меня задач</strong>: интеграция с сервером, управление глобальным состоянием, типизация стратегий</li>
+              <li class="fragment">Фокус на <strong>чистоте</strong> и поддерживаемости кода</li>
+              <li class="fragment">Опыт <strong>Code Review</strong> и изучение лучших практики: архитектурные принципы и подходы к поддерживаемому коду</li>
+              <li class="fragment">Получен реальный <strong>опыт</strong> фронтенд-разработки с взаимодействием с бэкендом</li>
+            </ul>
+        </section>
+        <section class="step-21">
+          <h2>Tandem Demo</h2>
+          <p><a target="_blank" href="https://tandem-growlab.vercel.app">https://tandem-growlab.vercel.app</a></li></p>
+          <img src="src/assets/tandem-dashboard.png" alt="">
+       </section>
+        <section class="step-22">
+          <h1>Q&A</h1>
+          <img src="src/assets/cat.avif" alt="">
         </section>
       </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js"></script>

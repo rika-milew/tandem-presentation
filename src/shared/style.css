@@ -15,7 +15,9 @@
 .reveal .slide-10,
 .reveal .slide-11,
 .reveal .slide-12,
-.reveal .step-01  {
+.reveal .step-08,
+.reveal .step-20,
+.reveal .step-23 {
   background: hsl(240, 16%, 6%);
 }
 
@@ -42,9 +44,15 @@
 }
 
 .reveal h3 {
+  margin-bottom: 30px;
   font-size: 34px;
   text-transform: none;
   color: hsl(0, 0%, 50%);
+}
+
+.reveal .slide-01 h3,
+.reveal .step-01 h3 {
+  margin-bottom: 20px;
 }
 
 .reveal p {
@@ -95,12 +103,14 @@
   border-radius: 18px;
 }
 
-.reveal .slide-01 h1 {
+.reveal .slide-01 h1,
+.reveal .step-01 h1 {
   margin-bottom: 15px;
   font-size: 52px;
 }
 
-.reveal .slide-01 img {
+.reveal .slide-01 img,
+.reveal .step-01 .logo {
   width: 350px;
 }
 
@@ -131,11 +141,21 @@
   max-width: 1500px;
 }
 
+.reveal .step-11 h2,
+.reveal .step-14 h2 {
+  margin-bottom: 20px;
+}
+
 .reveal .slide-02 img,
 .reveal .slide-17 img,
 .reveal .slide-18 img {
   max-width: 1500px;
   margin-top: 25px;
+}
+
+.reveal .step-07 img,
+.reveal .step-09 img {
+  max-width: 1700px;
 }
 
 .reveal .slide-04 img {
@@ -188,4 +208,50 @@
 .technology {
   padding:0.3rem 0.6rem; 
   border-radius:0.3rem
+}
+
+.reveal .work {
+  margin-bottom: 30px;
+}
+
+.reveal .work li {
+  font-size: 24px;
+}
+
+.reveal .git-board {
+  max-width: 1000px;
+}
+
+.reveal .architecture  {
+  margin-top: 20px;
+  max-width: 600px;
+}
+
+.reveal .layers {
+  margin-top: 40px;
+  max-width: 1200px;
+}
+
+.reveal .completed {
+  margin-top: 40px;
+  max-width: 1400px;
+}
+
+.reveal .feature-list {
+  margin-bottom: 30px;
+  list-style-type: square;
+} 
+
+.reveal .difficulties li {
+  font-size: 24px;
+}
+
+.reveal .score-image {
+  width: 1300px;
+  margin-top: 0;
+}
+
+.reveal .react {
+  margin-top: 40px;
+  width: 600px;
 }

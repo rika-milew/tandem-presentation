@@ -15,9 +15,13 @@
 .reveal .slide-10,
 .reveal .slide-11,
 .reveal .slide-12,
-.reveal .step-08,
+.reveal .step-03,
+.reveal .step-06,
+.reveal .step-12,
+.reveal .step-14,
+.reveal .step-19,
 .reveal .step-20,
-.reveal .step-23 {
+.reveal .step-24 {
   background: hsl(240, 16%, 6%);
 }
 
@@ -135,10 +139,49 @@
 .reveal .step-08 img,
 .reveal .step-10 img,
 .reveal .step-11 img,
+.reveal .step-12 img,
 .reveal .step-13 img,
 .reveal .step-16 img,
 .reveal .step-21 img {
   max-width: 1500px;
+}
+
+.reveal .step-07 img,
+.reveal .step-08 img, 
+.reveal .step-09 img,
+.reveal .step-11 img,
+.reveal .step-13 img,
+.reveal .step-14 img  {
+  width: 1200px;
+}
+
+.reveal .step-17 img {
+  width: 1600px;
+}
+
+.reveal .step-20 img {
+  width: 1500px;
+}
+
+.reveal .step-12 img,
+.reveal .step-18 img,
+.reveal .step-21 img,
+.reveal .step-22 img,
+.reveal .step-24 img {
+  width: 1400px;
+}
+
+.reveal .step-10 img {
+  width: 1100px;
+}
+
+.reveal .step-16 img {
+  width: 600px;
+}
+
+.reveal .step-09 .strategy,
+.reveal .step-13 .strategy  {
+  margin-bottom: 40px;
 }
 
 .reveal .step-11 h2,
@@ -252,6 +295,26 @@
 }
 
 .reveal .react {
+  width: 450px;
+  margin-bottom: 20px;
+}
+
+.reveal .description {
+  margin-bottom: 20px;
+}
+
+.reveal .widget-container {
+  width: 1200px;
+}
+
+.reveal .key {
+  width: 1000px;
+}
+
+.reveal .memo {
   margin-top: 40px;
-  width: 600px;
+}
+
+.reveal  .dashboard-image {
+  margin-top: 20px;
 }
